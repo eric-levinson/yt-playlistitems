@@ -1,0 +1,24 @@
+{
+  "name": "google-yt-api",
+  "version": "1.0.0",
+  "description": "Youtube Api Test",
+  "main": "yt-playlistitems.js",
+  "dependencies": {
+    "google-auth-library": "^0.12.0",
+    "googleapis": "^23.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eric-levinson/yt-playlistitems.git"
+  },
+  "author": "Eric Levinson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eric-levinson/yt-playlistitems/issues"
+  },
+  "homepage": "https://github.com/eric-levinson/yt-playlistitems#readme"
+}
