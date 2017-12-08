@@ -112,10 +112,10 @@ function getList(auth) {
     }
     var videos = response.items;
     if (videos.length == 0) {
-      console.log('No channel found.');
+      console.log('No lists found.');
     } else {
       videos.forEach(function (element) {
-        console.log(element.contentDetails.videoId)
+        console.log('https://www.youtube.com/watch?v=' + element.contentDetails.videoId)
       });    
     }
   });
